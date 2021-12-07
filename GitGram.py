@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 from html import escape
 from requests import get, post
 from os import environ
-import config
+
 
 from telegram.ext import CommandHandler, Updater
 
